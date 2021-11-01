@@ -29,7 +29,7 @@ app.get('/css',function(req,res) {
 });
 
 app.get('/js',function(req,res) {
-  res.sendFile(path.join(__dirname, '../script.js'));
+  res.sendFile(path.join(__dirname, '../main.js'));
 });
 
 
