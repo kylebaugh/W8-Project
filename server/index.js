@@ -20,6 +20,18 @@ app.delete(`/api/destinations/:id`, ctrl.deleteDestination)
 app.post(`/api/destinations`, ctrl.createDestination)
 app.put(`/api/destinations/:id`, ctrl.updateDestination)
 
+app.get('/',function(req,res) {
+  res.sendFile(path.join(__dirname, '../main.html'));
+});
+
+app.get('/css',function(req,res) {
+  res.sendFile(path.join(__dirname, '../styles.css'));
+});
+
+app.get('/js',function(req,res) {
+  res.sendFile(path.join(__dirname, '../script.js'));
+});
+
 
 const port = process.env.PORT || 5000
 

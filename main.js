@@ -48,11 +48,9 @@ function createDestinationCard(destinations) {
 
 
     destinationsContainer.appendChild(destinationCard)
-    console.log("hello")
 }
 
 function displayDestinations(arr) {
-    console.log("test")
     destinationsContainer.innerHTML = ``
     for (let i = 0; i < arr.length; i++) {
         createDestinationCard(arr[i])
