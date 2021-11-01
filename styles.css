@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: snow;
+    background-image: url("https://i.postimg.cc/Ghvx75PM/annie-spratt-qy-Aka7-W5u-MY-unsplash.jpg"); 
+    /* background-image: url("https://i.postimg.cc/5tBmGFqh/actionvance-t7-EL2i-G3j-Mc-unsplash.jpg"); */
+    /* background-image: url("https://i.postimg.cc/zBpFDZQp/louis-maniquet-71-QXQUSC-Do-unsplash.jpg"); */
+    /* background-image: url("https://i.postimg.cc/dthjFfjm/nasa-1lf-I7wk-GWZ4-unsplash.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  header {
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: gray;
+    font-weight: bolder
+  }
+  
+  main {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  form {
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px;
+    opacity: 1.0;
+  }
+  
+  button {
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    color: black;
+    border: none;
+    margin: 5px;
+    border-radius: 25px
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+  
+  input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: snow;
+  }
+  
+  #price-container {
+    width: 85%;
+  }
+  
+  #radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .destination-cover-image {
+    width: 300px; 
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .destination-card {
+    background-color: gray;
+    width: 300px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .destination-destination {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .destination-price {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  
+  .btns-container {
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+  
+  .btns-container > button {
+    width: 20px;
+  }
