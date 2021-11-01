@@ -59,4 +59,6 @@ function displayDestinations(arr) {
 
 form.addEventListener('submit', submitHandler)
 
-setTimeout(function(){getAllDestinations() }, 500);
+// setTimeout(function(){
+    getAllDestinations() 
+// }, 500);
