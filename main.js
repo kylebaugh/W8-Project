@@ -60,3 +60,5 @@ function displayDestinations(arr) {
 form.addEventListener('submit', submitHandler)
 
 getAllDestinations()
+
+// test
