@@ -33,7 +33,7 @@ app.get('/js',function(req,res) {
 });
 
 
-const port = process.env.PORT
+const port = process.env.PORT || 4004
 
 app.listen(port, () => {
   console.log(`Over ${port}`)
