@@ -33,10 +33,10 @@ module.exports = {
         if (destinations[index].price - 50 < 0 && type === 'minus') {
             res.status(200).send('cant go below zero')
         } else if (type === 'minus') {
-            destinations[index].price -= 50
+            destinations[index].price = +destinations[index].price - 50
             res.status(200).send(destinations)
         } else if (type === 'plus') {
-            destinations[index].price += 50
+            destinations[index].price = +destinations[index].price + 50
             res.status(200).send(destinations)
         } else {
             res.sendStatus(400).send('you messed up')
